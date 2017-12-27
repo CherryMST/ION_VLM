@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <SurfaceView
+        android:id="@+id/sv_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center" />
+
+
+    <com.nokia.qrcode.view.CaptureView
+        android:id="@+id/cv_capture"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true" />
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@android:color/black">
+
+        <View style="@style/horizontal_line"
+              android:background="@android:color/black"
+            android:layout_width="100dp"/>
+
+        <TextView
+            android:clickable="true"
+            android:id="@+id/tv_qr_asset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/icon_qr_asset"
+            android:text="Asset"
+            android:paddingTop="10dp"
+            android:textColor="@color/color_white"
+            android:layout_gravity="center_vertical"/>
+
+        <View style="@style/horizontal_line"
+              android:background="@android:color/black"
+              android:layout_width="100dp"/>
+
+        <TextView
+            android:clickable="true"
+            android:id="@+id/tv_qr_position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:drawableTop="@drawable/icon_qr_position"
+            android:text="Position"
+            android:textColor="@color/color_white"
+            android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

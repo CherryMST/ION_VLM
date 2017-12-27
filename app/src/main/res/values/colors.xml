@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="colorToolbarline">#eeeeee</color>
+    <color name="color_home_grey">#F2F2F2</color>
+
+    <color name="color_bg">#f4f4f4</color>
+    <color name="color_white">#ffffff</color>
+    <color name="color_transparent">#00000000</color>
+    <color name="color_blue">#04a5e9</color>
+    <color name="color_nokia_blue">#1e42a0</color>
+    <color name="color_red_1">#FF4444</color>
+    <color name="color_blue_1">#12b7f6</color>
+    <color name="color_blue_2">#2da0f4</color>
+    <color name="color_red">#FE6E6F</color>
+    <color name="gray_text_color">#9f9f9f</color>
+    <color name="color_text_content">#666666</color>
+    <color name="color_text_content_blue">#1C4599</color>
+    <color name="color_text_content_red">#D80000</color>
+    <color name="color_text_content_super_dark">#000000</color>
+    <color name="color_text_content_dark">#333333</color>
+    <color name="color_text_content_normal">#6e6e6e</color>
+    <color name="color_text_content_gray">#999999</color>
+    <color name="line">#e1e1e1</color>
+    <color name="btn_bg">#cccccc</color>
+
+    <color name="home_list_name">#f45451</color>
+    <color name="bill_detail_money_add">#f80707</color>
+    <color name="bill_detail_money_remove">#16bc1a</color>
+
+    <drawable name="bg_nokiablue">#1C4599</drawable>
+
+</resources>

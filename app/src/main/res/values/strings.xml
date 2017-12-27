@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">NOKIAVLM</string>
+    <string name="reg_name"> <u>注册新账号</u></string>
+    <string name="app_filtrate_hangye">行业</string>
+    <string name="app_fitrate_buxian">不限</string>
+    <string name="app_fitrate_jibie">级别</string>
+    <string name="app_fitrate_age">年龄</string>
+    <string name="app_fitrate_city">城市</string>
+    <string name="app_fitrate_like">兴趣</string>
+    <string name="app_filtrate_see">查看</string>
+    <string name="app_qinggan">情感状况</string>
+    <string name="app_my_stroe">我的故事</string>
+    <string name="app_my_adress">我的地址</string>
+
+    <string name="app_mayi">蚂蚁信用</string>
+    <string name="app_nicknamie">昵称</string>
+    <string name="app_user_name">姓名</string>
+    <string name="app_string_sex">性别</string>
+    <string name="app_city">地区</string>
+    <string name="app_hometown">故乡</string>
+    <string name="app_sign">个性签名</string>
+    <string name="app_zhiqu">直趣号</string>
+    <string name="app_tel">手机号</string>
+    <string name="app_new_friend">新的朋友</string>
+
+
+    <string name="app_wallet_banlace">&lt;font color="#666666">账户余额&lt;/font> &lt;br>
+                                      &lt;font color="#333333">&lt;big>￥&lt;/big>&lt;/font>
+                                     &lt;font color="#333333">&lt;big>&lt;big>&lt;big>&lt;big>%1$s&lt;/big>&lt;/big>&lt;/big>&lt;/big>&lt;/font></string>
+    <string name="app_rechange">充值</string>
+    <string name="app_withdrawal">提现</string>
+    <string name="withdrawal_kaihuren">开户人</string>
+    <string name="withdrawal_kaihuren_hint">请输入开户人</string>
+    <string name="withdrawal_kaihuren_name">开户行名称</string>
+    <string name="withdrawal_kaihuren_name_hint">请选择银行</string>
+    <string name="withdrawal_bank_card">银行卡号</string>
+    <string name="withdrawal_bank_card_hint">请输入银行卡号</string>
+    <string name="withdrawal_price">提现金额</string>
+    <string name="withdrawal_money_hint">请输入金额</string>
+    <string name="withdrawal_all">全部提现</string>
+    <string name="withdrawal_hint">为了您的账户安全:\n只能提现到本人储蓄卡，不支持信用卡</string>
+    <string name="app_submit">提交</string>
+    <string name="interst_coin_my">我的趣币</string>
+
+    <string name="app_authentication">&lt;font color="#666666">通过实名认证，可以提高竞拍者的信用&lt;/font> &lt;br>
+                                      &lt;font color="#04A5E9">请拍照上传本人手持正面身份证&lt;/font>
+                                    </string>
+    <string name="app_upload">上传</string>
+    <string name="app_authentication_success">实名认证成功</string>
+    <string name="app_photo">相册</string>
+    <string name="app_dyma">个人动态</string>
+    <string name="app_label">即刻需求</string>
+    <string name="app_gift">收到的礼物</string>
+    <string name="app_send_gift">送礼物</string>
+    <string name="app_hello">打招呼</string>
+    <string name="app_say_hello">说句话打个招呼</string>
+
+
+    <!--二维码扫描-->
+    <string name="capture_camera_failed">未开启相机</string>
+    <string name="capture_hint">Put the qrcode in frame</string>
+    <string name="capture_decode_failed">没有找到二维码</string>
+    <string name="capture_decode_result_title">Scan Result</string>
+    <string name="capture_decode_result_open">Open</string>
+    <string name="capture_decode_result_copy">Copy</string>
+    <string name="capture_decode_result_copy_hint">Already copy!</string>
+
+</resources>

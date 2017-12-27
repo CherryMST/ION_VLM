@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../IMKit/IMKit.iml" filepath="$PROJECT_DIR$/../IMKit/IMKit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../IMLib/IMLib.iml" filepath="$PROJECT_DIR$/../IMLib/IMLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../NumberPrick/NumberPrick.iml" filepath="$PROJECT_DIR$/../NumberPrick/NumberPrick.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ShareSDK/ShareSDK.iml" filepath="$PROJECT_DIR$/../ShareSDK/ShareSDK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app.iml" filepath="$PROJECT_DIR$/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../framelib/framelib.iml" filepath="$PROJECT_DIR$/../framelib/framelib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../jpush/jpush.iml" filepath="$PROJECT_DIR$/../jpush/jpush.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../nokia_vlm.iml" filepath="$PROJECT_DIR$/../nokia_vlm.iml" />
+    </modules>
+  </component>
+</project>

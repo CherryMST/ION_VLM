@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_home_grey"
+    android:orientation="vertical">
+
+    <!--<include layout="@layout/fragment_home_top2"/>-->
+    <!--<include layout="@layout/fragment_home_goods_status"/>-->
+    <!--<include layout="@layout/fragment_home_top"/>-->
+
+    <com.youth.banner.Banner
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="193dp"/>
+
+    <com.nokia.vlm.view.NoScrollGridView
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_weight="1"
+        android:numColumns="3"/>
+
+</LinearLayout>

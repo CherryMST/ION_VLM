@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="235dp"
+    android:layout_height="120dp"
+    android:minHeight="100dp"
+    android:orientation="vertical"
+    android:background="#3F3F3F"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:id="@+id/ll_content"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/tv_itemname"
+            android:src="@drawable/icon_text_qr"
+            android:layout_width="wrap_content"
+            android:text="QR："
+            android:textColor="@color/color_white"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/ll_edittext_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <Button
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/btn_cancel"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Cancel"
+                android:textAllCaps="false"
+                android:background="@null"
+                android:textColor="@color/color_white"
+                android:layout_height="match_parent"/>
+
+            <Button
+                android:id="@+id/btn_apply"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/color_white"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:background="@null"
+                android:text="Update"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+
+
+
+</LinearLayout>

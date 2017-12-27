@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_loading_bg">#e0e0e0</color>
+    <color name="color_error_bg">#e0e0e0</color>
+
+    <color name="color_nokia_blue">#1e42a0</color>
+
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#000000</color>
+
+    <color name="colorToolbarbg">#ffffff</color>
+    <color name="colorToolbarTitle">#000000</color>
+    <color name="colorToolbarLeftText">#000000</color>
+    <color name="colorToolbarRightText">#000000</color>
+    <color name="colorToolbarline">#00000000</color>
+
+
+    <color name="app_snanck_bg">#fd8b8b</color>
+</resources>

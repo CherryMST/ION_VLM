@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+
+        <com.nokia.vlm.view.ScrollBannerWrapper
+            android:id="@+id/imageswraper"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.nokia.vlm.view.HorizonScrollLayout
+                android:id="@+id/images"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </com.nokia.vlm.view.ScrollBannerWrapper>
+
+        <LinearLayout
+            android:id="@+id/points"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/imageswraper"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="7dp"
+            android:orientation="horizontal" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="nameSite">
+        <item>Shanghai</item>
+        <item>Chengdu</item>
+        <!--<item >Hosl&amp;Cli</item>   &lt;!&ndash; 特殊字符要转义&ndash;&gt;-->
+    </string-array>
+    <integer-array name="resSite">
+        <item>@drawable/selector_selection_site_shanghai</item>
+        <item>@drawable/selector_selection_site_chengdu</item>
+    </integer-array>
+
+    <string-array name="nameDep">
+        <item>SW</item>
+        <item>HW</item>
+        <item>FSV</item>
+        <item>TEC-OPT</item>
+        <item>Common</item>
+        <item>TEC-EPC</item>
+    </string-array>
+    <integer-array name="resDep">
+        <item>@drawable/selector_selection_dep_sw</item>
+        <item>@drawable/selector_selection_dep_hw</item>
+        <item>@drawable/selector_selection_dep_fsv</item>
+        <item>@drawable/selector_selection_dep_opt</item>
+        <item>@drawable/selector_selection_dep_common</item>
+        <item>@drawable/selector_selection_dep_epc</item>
+    </integer-array>
+
+    <string-array name="nameWorkCondition">
+        <item>In Service</item>
+        <item>In Repair</item>
+        <item>Scrapped</item>
+    </string-array>
+    <integer-array name="resWorkCondition">
+        <item>@drawable/selector_selection_working_condition_inservice</item>
+        <item>@drawable/selector_selection_working_condition_inrepair</item>
+        <item>@drawable/selector_selection_working_condition_scrapped</item>
+    </integer-array>
+
+    <string-array name="nameCalResult">
+        <item>NO CALIBRATION REQUIRED</item>
+        <item>OUT OF SERVICE</item>
+        <item>CALIBRATION PASSED</item>
+        <item>LIMITED USE</item>
+        <item>NOT CALIBRATION REQUIRED</item>
+    </string-array>
+    <integer-array name="resCalResult">
+        <item>@drawable/selector_selection_cal_result_no_required</item>
+        <item>@drawable/selector_selection_cal_result_out_of_service</item>
+        <item>@drawable/selector_selection_cal_result_pass</item>
+        <item>@drawable/selector_selection_cal_result_limited_use</item>
+        <item>@drawable/selector_selection_cal_result_not_required</item>
+    </integer-array>
+
+    <string-array name="nameSubDepAll">
+        <item>WDM</item>
+        <item>OCS</item>
+        <item>4LS</item>
+        <item>EPC</item>
+        <item>OPT</item>
+        <item>FPGA</item>
+        <item>HWCP</item>
+        <item>HWI</item>
+        <item>Compliance</item>
+        <item>WDM_LC_CD</item>
+        <item>Others</item>
+    </string-array>
+    <integer-array name="resSubDepAll">
+        <!--少了HWCP HWI Optics-->
+    <item>@drawable/selector_selection_sub_wdm</item>
+    <item>@drawable/selector_selection_sub_ocs</item>
+    <item>@drawable/selector_selection_sub_4ls</item>
+    <item>@drawable/selector_selection_sub_epc</item>
+    <item>@drawable/selector_selection_sub_opt</item>
+    <item>@drawable/selector_selection_sub_fpga</item>
+    <item>@drawable/selector_selection_sub_hwcp</item>
+    <item>@drawable/selector_selection_sub_hwi</item>
+    <item>@drawable/selector_selection_sub_compliance</item>
+    <item>@drawable/selector_selection_sub_wdm_lcd_cd</item>
+    <item>@drawable/selector_selection_sub_others</item>
+    </integer-array>
+
+    <string-array name="nameType">
+        <item>TestInstruments</item>
+        <item>others</item>
+    </string-array>
+
+
+
+
+
+
+
+</resources>

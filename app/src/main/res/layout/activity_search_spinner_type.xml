@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:paddingRight="20dp"
+    android:layout_height="40dp"
+    android:gravity="center"
+    android:paddingLeft="20dp"
+    android:orientation="horizontal">
+
+    <Spinner
+        android:id="@+id/activity_search_spinner"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:numColumns="3"/>
+    <CheckBox
+        android:id="@+id/cb_in_stock"
+        android:layout_width="30dp"
+        android:layout_height="30dp"/>
+    <TextView
+        android:id="@+id/tv_in_stock"
+        android:layout_width="wrap_content"
+        android:text="In Stock"
+        android:textSize="18sp"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

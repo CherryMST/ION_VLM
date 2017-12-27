@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup
+    android:id="@+id/rg_search_selections"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="105dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RadioButton
+        android:id="@+id/rb_site"
+        android:layout_width="105dp"
+        android:focusable="false"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:button="@null"
+        android:paddingTop="5dp"/>
+
+    <RadioButton
+        android:id="@+id/rb_department"
+        android:layout_width="105dp"
+        android:focusable="false"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:button="@null"
+        android:paddingTop="5dp"/>
+
+    <RadioButton
+        android:id="@+id/rb_subdepartment"
+        android:layout_width="105dp"
+        android:focusable="false"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:button="@null"
+        android:paddingTop="5dp"/>
+
+    <RadioButton
+        android:id="@+id/rb_workingcondition"
+        android:layout_width="105dp"
+        android:focusable="false"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:button="@null"
+        android:paddingTop="5dp"/>
+
+    <RadioButton
+        android:id="@+id/rb_asset_id"
+        android:layout_width="105dp"
+        android:focusable="false"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:button="@null"
+        android:paddingTop="5dp"/>
+
+    <RadioButton
+        android:id="@+id/rb_current_user"
+        android:layout_width="105dp"
+        android:focusable="false"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:button="@null"
+        android:paddingTop="5dp"/>
+
+    <RadioButton
+        android:id="@+id/rb_sn"
+        android:layout_width="105dp"
+        android:focusable="false"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:button="@null"
+        android:paddingTop="5dp"/>
+    <RadioButton
+        android:id="@+id/rb_module"
+        android:layout_width="105dp"
+        android:focusable="false"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:button="@null"
+        android:paddingTop="5dp"/>
+    <RadioButton
+        android:id="@+id/rb_cal_result"
+        android:layout_width="105dp"
+        android:focusable="false"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:button="@null"
+        android:paddingTop="5dp"/>
+    <RadioButton
+        android:id="@+id/rb_cal_req"
+        android:layout_width="105dp"
+        android:focusable="false"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:button="@null"
+        android:paddingTop="5dp"/>
+</RadioGroup>

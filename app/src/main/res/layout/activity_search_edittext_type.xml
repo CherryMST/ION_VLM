@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_edittext_type"
+        android:layout_gravity="center"
+        android:layout_width="197dp"
+        android:textColor="#C4C4C4"
+        android:hint="New Data"
+        android:background="@drawable/bg_text_selection"
+        android:layout_height="30dp"/>
+
+</LinearLayout>
